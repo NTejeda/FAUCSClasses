@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 37, 60, 0.87); /* font color */
+  background-color: #f50303; /* background color */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,56 +13,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-wrap: wrap; /* Add flex-wrap property to allow cards to wrap onto the next line */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.courseCardEvent {
+  width: calc(30% - 16px); /* Adjust the width based on your preference */
+  margin-right: 16px; /* Add margin between cards */
+  margin-bottom: 16px;
+  border-radius: 5px;
+  background-color: rgb(141, 141, 141);
+  box-shadow: 0 0 10px #FFFFFF;
+  overflow: hidden;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.courseCardEvent img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  border-color: #2de236;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .courseCardEvent {
+    width: calc(40% - 16px); /* Adjust for smaller screens */
   }
-  a:hover {
-    color: #747bff;
+}
+
+@media (max-width: 480px) {
+  .courseCardEvent {
+    width: calc(80% - 16px); /* Adjust for even smaller screens */
   }
-  button {
-    background-color: #f9f9f9;
-  }
+}
+
+.courseCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.relatedMaterialLink {
+  color: #092644; /* Blue color for the link */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 10px; /* Adjust spacing as needed */
+  display: inline-block; /* Ensure proper spacing around the link */
+}
+
+.relatedMaterialLink:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ee1c11; /* Darker blue on hover */
 }

@@ -1,0 +1,111 @@
+[
+    {
+        "img": "/src/assets/courseImages/c-programming.png",
+        "code": "COP 2220",
+        "name": "Intro to Programming in C",
+        "description": "Introduction to programming in C. Variable types, arithmetic statements, input/output statements, loops, conditional statements, functions, arrays and structures. Programming projects in C.",
+        "prereq": "None",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/java-programming.png",
+        "code": "COP 3337",
+        "name": "Java Programming",
+        "description": "This course introduces Java programming language. Topics include object-oriented programming, data structures, algorithms, and graphical user interfaces. Programming assignments and projects in Java.",
+        "prereq": "COP 2220",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    },
+    {
+        "img": "/assets/courseImages/web-development.png",
+        "code": "COP 4813",
+        "name": "Web Development",
+        "description": "Introduction to web development technologies. HTML, CSS, JavaScript, and server-side scripting. Building dynamic web applications. Final project involves designing and implementing a website.",
+        "prereq": "COP 3337",
+        "coreq": "None",
+        "relatedMaterialLink": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?index=product&objectID=course-da1b2400-322b-459b-97b0-0c557f05d017&webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fcomputer-science"
+    }
+]
+    

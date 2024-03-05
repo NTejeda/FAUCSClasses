@@ -1,33 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import logo from '/src/assets/fau_logo/FAUlogo.png'
+import CourseCardEvent from '/src/components/CourseCardEvent'  //course card component that wll be used to display the course information
+import CourseList from '/src/components/CourseList'; 
+import List from '/src/components/CoursesDB.json'; //import the course list from the json file
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.fau.edu/engineering/dessa/pdf/flowcharts/flowchart-bscs.pdf" target="_blank">
+          <img src={logo} className="logo" alt="FAU logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1>FAU Bachelor of Science in Computer Science</h1>
+      <h2>for Students Who Began Fall 2021 & Later</h2>
+      <p>
+        Click on the FAU logo for the pdf of the flowchart
       </p>
+      <div className="courseCard">
+
+      {/* Pass courseList directly to CourseList */}
+      <CourseList courseDB={List} />
+      </div>
     </>
   )
 }
